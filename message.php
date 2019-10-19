@@ -34,7 +34,7 @@
       background-image: url("upload/6.jpg");
       background-size:cover;
       background-attachment: fixed;
-      background-color: #ffff66; 
+      background-color: #ffff66;
       }
 </style>
 
@@ -50,8 +50,21 @@
     </div>
   </div>
 
+	<?php
 
-<?php
+	if($_POST["submit"]) {
+	    $recipient="vinat.kk@gmail.com";
+	    $subject="Message from Contact Form";
+	    $sender=$_POST["name"];
+	    $senderEmail=$_POST["email"];
+	    $message=$_POST["message"];
+
+	    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+	    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+	}
+
 $name = filter_input(INPUT_POST, 'name');
 $profession = filter_input(INPUT_POST, 'profession');
 $email = filter_input(INPUT_POST, 'email');
