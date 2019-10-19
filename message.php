@@ -64,7 +64,9 @@
 	    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
 
 	}
+?>
 
+<?php
 $name = filter_input(INPUT_POST, 'name');
 $profession = filter_input(INPUT_POST, 'profession');
 $email = filter_input(INPUT_POST, 'email');
