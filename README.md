@@ -18,4 +18,4 @@ Created by <a href=https://www.behance.net/vinatk> @Vinatk </a>
 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/1b73d986592823.5d9e14dca4149.png" alt="UX Methodology Toolkit">
 
-<img src="<https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/613ec186592823.5d9e14dca6359.png">" alt="UX Methodology Toolkit">
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/613ec186592823.5d9e14dca6359.png" alt="UX Methodology Toolkit">
